@@ -99,7 +99,7 @@
 # again!
 
 # 1) Get path of R script ----------------------------------------------------------------
-# In order to let the program know, where it is located you have to adapt the path in line 101
+# In order to let the program know, where it is located you have to adapt the path in line 106
 # to the location where "R-DS-Filter.R" is stored on your computer.
 
 print("Get path of R script")
