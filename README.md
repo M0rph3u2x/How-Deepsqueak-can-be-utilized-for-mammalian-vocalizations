@@ -21,40 +21,40 @@ How to run R-DS_Filter
 
 Installation ----------------------------------------------------------------------------------
 
-# In order to run the script, the R interpreter needs to be installed on the computer:
-# https://www.r-project.org/
-#
-# I advise to run the script within RStudio (an excellent editor for R based scripts):
-# https://rstudio.com/products/rstudio/
-#
-# Before running the script three modules needs to be installed in order to run the manuscript.
-# To do so, uncomment the lines 92-94 and execute them ("Code"->"Comment/Uncomment lines" 
-# in the menu (top left within editor window))
-#
-# Install packages (these packages are mandatory for the can be installed on your computer)
-# install.packages("readxl")
-# install.packages("dplyr")
-# install.packages("reader")
-#
-# After installing the packages you can comment them again, mark lines 92-94 select
-# "Code"->"Comment/Uncomment lines" in the menu (top left within editor window).
-# As the packages are now installed on your computer you do not need to repeat this step
-# again!
-#
-# In order to let the program know, where it is located you have to adapt the path in line 106
-# to the location where "R-DS-Filter.R" is stored on your computer.
-# Adapt path to your location:
-# R.Directory = "C:/Users/tjard/OneDrive/Desktop/DS_Filter/"
-#
-# Once, you have customized the path of the R-DS_Filter script no further
-# customization is needed and you are ready to go! :)
-#
-# IMPORTANT: It is mandatory, that "R-DS_Filter.functions.R" is located in the 
-# same directory as the core script, as it defines the functions used within the
-# main script (R-DS_Filter.R)!
-#
-# In order to run the script press "Strg + A" (Selects the complete script),
-# then press "Strg + enter" (this will execute the script!)
+ In order to run the script, the R interpreter needs to be installed on the computer:
+ https://www.r-project.org/
+
+ I advise to run the script within RStudio (an excellent editor for R based scripts):
+ https://rstudio.com/products/rstudio/
+
+ Before running the script three modules needs to be installed in order to run the manuscript.
+ To do so, uncomment the lines 92-94 and execute them ("Code"->"Comment/Uncomment lines" 
+ in the menu (top left within editor window))
+
+ Install packages (these packages are mandatory for the can be installed on your computer)
+ install.packages("readxl")
+ install.packages("dplyr")
+ install.packages("reader")
+
+ After installing the packages you can comment them again, mark lines 92-94 select
+ "Code"->"Comment/Uncomment lines" in the menu (top left within editor window).
+ As the packages are now installed on your computer you do not need to repeat this step
+ again!
+
+ In order to let the program know, where it is located you have to adapt the path in line 106
+ to the location where "R-DS-Filter.R" is stored on your computer.
+ Adapt path to your location:
+ R.Directory = "C:/Users/tjard/OneDrive/Desktop/DS_Filter/"
+
+ Once, you have customized the path of the R-DS_Filter script no further
+ customization is needed and you are ready to go! :)
+
+ IMPORTANT: It is mandatory, that "R-DS_Filter.functions.R" is located in the 
+ same directory as the core script, as it defines the functions used within the
+ main script (R-DS_Filter.R)!
+
+ In order to run the script press "Strg + A" (Selects the complete script),
+ then press "Strg + enter" (this will execute the script!)
 #------------------------------------------------------------------------------------------------
 
 Running the script
