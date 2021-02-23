@@ -1,0 +1,44 @@
+
+	DETECTION, CLASSIFICATION AND DENOISING NETWORKS
+		BRIEF DESCRIPTION
+
+DETECTION NETWORKS (detectors):
+
+Three detector networks were trained and used for the study.
+
+1) Elke_longcalls.mat: targeting long mouse lemur calls (trills and long whistles)
+
+2) Elke_sw_tsaks.mat: targeting short mouse lemur calls (typically, short whistles and tsaks)
+
+3) Elke_zips.mat: targeting very short mouse lemur calls (zips)
+
+To enable the use of these detection networks on DeepSqueak, they need to be stored inside the 
+"Networks" folder of the DeepSqueak folder.
+
+To learn how to use the detection networks, please visit the DeepSqueak's Wiki (link below),
+USV Detection
+
+CLASSIFICATION NETWORK (classifier):
+
+called "ClassifierNet.mat", needs to be stored inside the "Clustering Models" folder of the
+DeepSqueak folder. This network will automatically label the data according to five
+common classes of mouse lemur tonal calls: long whistles, short whistles, tsaks, zips and trills
+
+To learn how to use the classification network, please visit the DeepSqueak's Wiki (ling below),
+Supervised Classification
+
+DENOISING NETWORK (denoiser)
+
+Available under the name "CleaningNet.mat", this model automatically cleans up the data
+removing unwanted signals. It was trained based on audio recordings from laboratory
+experiments at our institute in Hannover.
+
+The denoiser should be stored into "Denoising Networks" folder of the DeepSqueak folder
+
+For details on how to use the denoising network please visit the DeepSqueak's Wiki (link below),
+Post Hoc Denoising
+
+
+Link to the DeepSqueak's Wiki:
+
+https://github.com/DrCoffey/DeepSqueak/wiki
